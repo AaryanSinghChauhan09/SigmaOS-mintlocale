@@ -4,6 +4,7 @@
 //! Line-based `key = value` / `key: value` parser with comment support; deterministic BTreeMap output.
 //! Principles: single responsibility, fail-fast, defensive programming,
 //! component isolation, stable API, deterministic tests.
+#![forbid(unsafe_code)]
 
 use std::fmt;
 use std::collections::BTreeMap;
